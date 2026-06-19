@@ -38,6 +38,12 @@ export default function Login() {
             : "opacity-0 translate-y-6 scale-[0.98]"
         }`}
       >
+        <button
+  onClick={() => navigate("/")}
+  className="mb-6 inline-flex items-center gap-2 rounded-md border border-[#232323] px-3 py-2 text-sm text-[#A1A1AA] hover:border-[#D97706] hover:text-[#F5F5F5] transition-all"
+>
+  ← Back to Forge
+</button>
         <div className="mb-8">
           <h2 className="text-[#F5F5F5] text-3xl font-bold tracking-tight mb-2">
             Welcome to FORGE

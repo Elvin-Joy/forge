@@ -1,3 +1,19 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Database files
+*.db
+
+# VS Code
+.vscode/
 .env
 node_modules/
 dist/

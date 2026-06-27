@@ -6,11 +6,13 @@ class Settings(BaseSettings):
     PROJECT_VERSION: str = "1.0.0"
 
     DATABASE_URL: str
-    GROQ_API_KEY: str
+
+    GEMINI_API_KEY: str
 
     model_config = SettingsConfigDict(
         env_file=".env",
-        env_file_encoding="utf-8"
+        env_file_encoding="utf-8",
+        extra="ignore"
     )
 
 
